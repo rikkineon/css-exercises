@@ -4,3 +4,12 @@ button {
     font-size: 28px;
     font-family: 'Helvetica', 'Times New Roman', sans-serif;
 }
+
+button.positive {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+button.negative {
+    background-color: #DEED7B;
+}
