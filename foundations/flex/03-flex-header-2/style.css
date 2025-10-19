@@ -48,8 +48,10 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
+  justify-content: flex-start;
 }
 
 .right-nav {
   display: flex;
+  gap: 15px;
 }
