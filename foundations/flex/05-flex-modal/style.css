@@ -49,7 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 10px 15px;
 }
 
 .close-button {
@@ -75,6 +75,8 @@ button {
 
 .options {
   display: flex;
+  margin: 15px;
+  margin-left: 0;
 }
 
 button.continue {
