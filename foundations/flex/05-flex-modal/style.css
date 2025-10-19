@@ -26,6 +26,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
+  margin-left: 0;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .main {
@@ -45,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
 .close-button {
@@ -66,6 +71,10 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.options {
+  display: flex;
 }
 
 button.continue {
