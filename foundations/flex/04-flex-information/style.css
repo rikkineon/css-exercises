@@ -12,12 +12,12 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .all-plants {
   display: flex;
-  gap: 40px;
+  gap: 52px;
   justify-content: center;
   padding: 20px;
 }
