@@ -7,10 +7,28 @@ body {
   justify-content: space-between;
 }
 
+a {
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 6px;
 }
 
 .whole {
@@ -22,6 +40,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -29,22 +50,28 @@ body {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex: 1;
+  /* This is what allows it to stretch from top to bottom AND maintain declared width */
+  flex-shrink: 0;
+  /* Fills available space on CROSS AXIS */
+  flex-basis: auto;
   justify-content: flex-start;
-  align-items: stretch;
+  padding: 16px;
 }
 
 .content {
+  width: 600px;
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 32px;
+  gap: 16px;
+  padding: 48px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 333px;
+  width: 300px;
   padding: 15px 15px 75px 15px; 
 }
